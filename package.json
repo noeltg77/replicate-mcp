@@ -1,0 +1,31 @@
+{
+  "name": "@noeltg77/replice-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for Replicate Flux API integration",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noeltg77/replice-mcp.git"
+  },
+  "type": "module",
+  "bin": {
+    "mcp-server-replicate": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && shx chmod +x dist/*.js",
+    "prepare": "npm run build",
+    "watch": "tsc --watch"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.0.1",
+    "node-fetch": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "shx": "^0.3.4",
+    "typescript": "^5.2.2"
+  }
+}
