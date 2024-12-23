@@ -73,7 +73,7 @@ const REPLICATE_TOOL: Tool = {
 
 const server = new Server(
   {
-    name: "noeltg77/replice-mcp",
+    name: "noeltg77/replicate-mcp",
     version: "0.1.0",
   },
   {
