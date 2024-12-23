@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/noeltg77/replice-mcp.git"
+    "url": "https://github.com/noeltg77/replicate-mcp.git"
   },
   "type": "module",
   "bin": {
